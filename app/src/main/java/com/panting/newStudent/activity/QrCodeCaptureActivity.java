@@ -31,7 +31,7 @@ import com.panting.newStudent.widget.CommonTitleLayout;
 import java.io.IOException;
 import java.util.Vector;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
@@ -49,9 +49,9 @@ public class QrCodeCaptureActivity extends BaseActivity implements Callback {
             mediaPlayer.seekTo(0);
         }
     };
-    @Bind(R.id.viewfinder_view)
+    @BindView(R.id.viewfinder_view)
     ViewfinderView mViewfinderView;
-    @Bind(R.id.ctl_common_title)
+    @BindView(R.id.ctl_common_title)
     CommonTitleLayout mCommonTitleLayout;
     private CaptureActivityHandler handler;
     private boolean hasSurface;

@@ -10,15 +10,15 @@ import com.panting.newStudent.R;
 import com.panting.newStudent.base.BaseActivity;
 import com.panting.newStudent.widget.CommonTitleLayout;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class QrCodeScanResultActivity extends BaseActivity {
-    @Bind(R.id.result)
+    @BindView(R.id.result)
     TextView mResult;
-    @Bind(R.id.qrcode_bitmap)
+    @BindView(R.id.qrcode_bitmap)
     ImageView mQrcodeBitmap;
-    @Bind(R.id.ctl_common_title)
+    @BindView(R.id.ctl_common_title)
     CommonTitleLayout mCtlCommonTitle;
 
 

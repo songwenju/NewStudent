@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="primary">#3F51B5</color>
+    <color name="primaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
     <color name="result_view">#b0000000</color>
@@ -9,4 +9,20 @@
     <color name="possible_result_points">#c0ffff00</color>
 
     <color name="white">#FFFFFF</color>
+    <color name="mainColor">#4381E7</color>
+    <color name="textColor">#848484</color>
+    <color name="status_bar_color">@color/primaryDark</color>
+    <color name="divide_line_color">#A6A6A6</color>
+    <color name="black">#000000</color>
+    <color name="left_bg_color">#E7E5E4</color>
+    <color name="reveal_color">#1b000000</color>
+    <color name="btn_press_color">#bebebe</color>
+    <drawable name="reveal_color">#1b000000</drawable>
+    <drawable name="left_bg_color">#E7E5E4</drawable>
+    <color name="text_gray">#333333</color>
+    <color name="tabTextColor">#88ffffff</color>
+    <color name="appListColor">#66000000</color>
+
+    <color name="gray">#66000000</color>
+    <color name="split_color">#12000000</color>
 </resources>

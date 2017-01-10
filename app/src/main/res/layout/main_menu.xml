@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:background="@color/left_bg_color"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_left_head"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/primary">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iv_avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            fresco:roundAsCircle = "true"
+            fresco:placeholderImage="@mipmap/login_default_face"/>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_avatar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/login_out"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_left_menu_content"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divide_line_color"/>
+
+            <TextView
+                android:id="@+id/tv_left_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/setting"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

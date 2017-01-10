@@ -47,4 +47,5 @@ public class AppConstants {
     public static final String BLACK_NUM_SERVICE = "com.wjustudio.phoneManager.service.BlackNumService";
     public static final String LOCK_APP_SERVICE = "com.wjustudio.phoneManager.service.LockAppService";
 
+
 }
