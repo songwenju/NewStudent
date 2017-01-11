@@ -6,6 +6,8 @@
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!-- 标题颜色 -->
+        <item name="android:textColorPrimary">@color/white</item>
     </style>
 
     <style name="ToolBarStyle" parent="">
